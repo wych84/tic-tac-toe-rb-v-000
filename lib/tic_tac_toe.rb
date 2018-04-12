@@ -58,7 +58,7 @@ end
 
 def turn_count(board)
   index = 0
-  while index < 9 
+  until board[index].all? == "X" || "O" 
   turn(board)
   index += 1 
 end
