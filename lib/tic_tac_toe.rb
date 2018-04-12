@@ -44,13 +44,14 @@ def valid_move?(board, index)
 end
 
 def turn(board)
-  puts "Fill your spot in spaces 1-9:"
+  puts "Enter 1-9:"
   input = gets.strip
   index = input_to_index(input)
   if valid_move?(board, index)
     move(board, index, character)
     display_board(board)
   else
+    puts "Not valid."
     turn(board)
   end
 end
