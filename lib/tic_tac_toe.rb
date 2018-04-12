@@ -59,8 +59,8 @@ end
 def turn_count(board)
   index = 0
   while index < 9 
-  puts index
-  index += 1 
+  turn_count(board)
+  index += 1
 end
 end 
   
