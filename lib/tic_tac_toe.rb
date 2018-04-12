@@ -45,5 +45,6 @@ end
 
 def turn(board)
   puts "Fill your spot in spaces 1-9:"
+  input = gets.strip
   
   
