@@ -62,6 +62,6 @@ def turn_count(board)
   turn(board)
   index += 1 
 end
-
+end 
   
   
