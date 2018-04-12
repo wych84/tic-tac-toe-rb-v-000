@@ -46,7 +46,7 @@ end
 def turn(board)
   puts "Fill your spot in spaces 1-9:"
   input = gets.strip
-  input_to_index(input)
+  input_to_index
   if valid_move?(board, index)
     display_board(board)
   else
