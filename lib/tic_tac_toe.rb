@@ -67,7 +67,7 @@ return count
 end
 
 def current_player(board)
-  
+  if 
 
 
   
