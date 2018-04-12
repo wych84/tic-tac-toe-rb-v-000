@@ -66,7 +66,8 @@ end
 return count
 end
 
-def current_player()
+def current_player(board)
+  
 
 
   
