@@ -114,7 +114,7 @@ def play(board)
   if won?(board)
     puts "Congratulations winner!"
   else
-    draw?(board)
+    puts "Try again!"
   end
 end
 
