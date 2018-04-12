@@ -56,5 +56,7 @@ def turn(board)
   end
 end
 
+def turn_count(board)
+  count = 1 
   
   
