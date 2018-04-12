@@ -112,7 +112,7 @@ def play(board)
   end
   
   if won?(board)
-    puts "Congratulations!"
+    puts "Congratulations winner!"
   else
     draw?(board)
   end
