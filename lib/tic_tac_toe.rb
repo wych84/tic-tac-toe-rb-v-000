@@ -44,24 +44,24 @@ def valid_move?(board, index)
 end
 
 def turn(board)
-  puts "Enter 1-9:"
+  puts "Please enter 1-9:"
   input = gets.strip
   index = input_to_index(input)
   if valid_move?(board, index)
-    move(board, index, "X")
+    move(board, index)
     display_board(board)
   else
-    puts "Not valid."
     turn(board)
   end
 end
 
+
 def turn_count(board)
-board[index] = 0
-  while board[index] < 9 
-    turn(board)
-  board[index] += 1
-  end
-end 
+  index = 0
+  while index < 9 
+  turn(board)
+  index += 1 
+end
+end
   
   
