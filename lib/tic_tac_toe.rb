@@ -57,11 +57,13 @@ end
 
 
 def turn_count(board)
+  turn = 0
   board.each do |token|
   if token == "X" || "O" 
-  
-  board[index] += 1 
+   turn += 1
+  end
 end
-end
+turn
+
   
   
