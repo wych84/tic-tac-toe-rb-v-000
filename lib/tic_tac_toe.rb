@@ -48,6 +48,7 @@ def turn(board)
   input = gets.strip
   input_to_index(input)
   if valid_move?(board, index)
+    display_board(board)
     
   
   
