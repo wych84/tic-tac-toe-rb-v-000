@@ -19,6 +19,6 @@ def display_board(board)
 end
 
 def input_to_index(board, input)
-index = input.int - 1
+index = input.to_int - 1
 board[input] = index
 end
