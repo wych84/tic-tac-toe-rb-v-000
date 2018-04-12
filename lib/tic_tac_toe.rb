@@ -112,7 +112,11 @@ def play(board)
   
   if won?(board)
     puts "Congratulations!"
-    
+  else
+    draw?(board)
+  end
+end
+
 
   
   
