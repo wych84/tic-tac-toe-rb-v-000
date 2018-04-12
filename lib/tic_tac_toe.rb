@@ -22,3 +22,5 @@ def input_to_index(input)
   index = input.to_i - 1
   return index
 end
+
+def move()
