@@ -57,8 +57,8 @@ end
 
 
 def turn_count(board)
-  board[index] = " "
-  until board[index].all? == "X" || "O" 
+  board.each do |token|
+  token == "X" || "O" 
   turn(board)
   board[index] += 1 
 end
