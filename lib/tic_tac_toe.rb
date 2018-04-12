@@ -57,10 +57,10 @@ def turn(board)
 end
 
 def turn_count(board)
-index = 0
-  while index < 9 
+board[index] = 0
+  while board[index] < 9 
     turn(board)
-  index += 1
+  board[index] += 1
   end
 end 
   
