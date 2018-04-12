@@ -6,3 +6,4 @@ prints "Welcome to Tic Tac Toe!"
 
 board =[" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
+play(board)
